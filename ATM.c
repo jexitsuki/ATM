@@ -2,12 +2,6 @@
 #include <math.h>
 #include <stdlib.h>
 
-// Name: Itsuki Akiniwa
-// Date: Feb 2 2025
-// Course: 2107
-// Assignment number: Lab03
-// Project: ATM
-
 float balance(float x, int *z){ // 1 (float nBalance, int nTransactions)
   printf("Your couurent balance is: %.2f\n", x);
   *z += 1; // add the number of transactions
